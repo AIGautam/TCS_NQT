@@ -1,3 +1,8 @@
+# Rearrange array in increasing-decreasing order
+# Example 1:
+# Input: 8 7 1 6 5 9
+# Output: 1 5 6 9 8 7
+
 def rearrange_inc_dec(arr):
     arr.sort()
     n = len(arr)
