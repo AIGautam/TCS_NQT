@@ -1,10 +1,10 @@
+
+
 // Check if the given String is Palindrome or not
-
-
 
 import java.util.Scanner;
 
-public class prob11 {
+public class prob1{
     static boolean isPalindrome(String str){
         str = str.toLowerCase().replaceAll("\\s+", "");
         String reversed  = new StringBuilder(str).reverse().toString();
@@ -23,3 +23,4 @@ public class prob11 {
 
     }
 }
+

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class prob13 {
+public class prob3 {
     static void  getAscii(char ch){
         int ascii =  ch;
         System.out.println(ascii);

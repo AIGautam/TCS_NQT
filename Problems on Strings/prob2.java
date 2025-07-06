@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class prob12 {
+public class prob2 {
 
     static void countCharacters(String str){
         str = str.toLowerCase();

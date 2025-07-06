@@ -51,5 +51,6 @@ public class prob3 {
         int sL = secondLargest(arr, n);
         System.out.println("Second smallest is " + sS);
         System.out.println("Second largest is " + sL);
+        sc.close();
     }
 }
