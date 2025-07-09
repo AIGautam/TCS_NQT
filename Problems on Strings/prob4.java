@@ -1,3 +1,5 @@
+// Remove all vowels from the String
+
 import java.util.Scanner;
 
 public class prob4 {
