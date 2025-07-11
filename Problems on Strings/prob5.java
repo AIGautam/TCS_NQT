@@ -1,3 +1,5 @@
+// Remove Spaces from a String
+
 public class prob5 {
     static int removeSpaces(char[] str) {
 
