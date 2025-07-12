@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// Remove characters from a string except alphabets
+
 
 public class prob6 {
     public static String solve(String str, int n) {
