@@ -7,7 +7,8 @@ public class prob21 {
         int currMax = nums[0];   
 
         for (int i = 1; i < nums.length; i++) {
-            currMax = Math.max(nums[i], currMax + nums[i]);
+            int curr = nums[i];
+            currMax = Math.max(curr, currMax + curr);
             maxSoFar = Math.max(maxSoFar, currMax);
         }
 
