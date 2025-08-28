@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class prob1{
     static boolean isPalindrome(String str){
-        str = str.toLowerCase().replaceAll("\\s+", "");
+        str = str.toLowerCase().replaceAll("//s+", "");
         String reversed  = new StringBuilder(str).reverse().toString();
         return str.equals(reversed);
     }
